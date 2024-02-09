@@ -1,0 +1,45 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.app-container {
+  width: 100%;
+}
+
+.users-table {
+  table-layout: fixed;
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.users-table-cell {
+  border-bottom: 1px solid #ddd;
+  text-align: left;
+  padding: 8px;
+}
+
+.search-bar {
+  width: 100%;
+  padding: 8px 0px;
+}
+
+.search-input {
+  width: 100%;
+  padding: 8px;
+  border-color: #ddd;
+}
+
+.pagination {
+  padding-top: 10px;
+}
+
+.active {
+  background-color: #abd0f0;
+}
+
+/* .table-height {
+  height: 500px;
+} */
